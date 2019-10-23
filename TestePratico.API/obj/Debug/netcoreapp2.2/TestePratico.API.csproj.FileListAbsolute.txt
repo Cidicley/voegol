@@ -1,0 +1,13 @@
+C:\Users\cidic\Documents\Cursos\WebApi RestFull\src\TestePratico.API\bin\Debug\netcoreapp2.2\TestePratico.API.deps.json
+C:\Users\cidic\Documents\Cursos\WebApi RestFull\src\TestePratico.API\bin\Debug\netcoreapp2.2\TestePratico.API.runtimeconfig.json
+C:\Users\cidic\Documents\Cursos\WebApi RestFull\src\TestePratico.API\bin\Debug\netcoreapp2.2\TestePratico.API.runtimeconfig.dev.json
+C:\Users\cidic\Documents\Cursos\WebApi RestFull\src\TestePratico.API\bin\Debug\netcoreapp2.2\TestePratico.API.dll
+C:\Users\cidic\Documents\Cursos\WebApi RestFull\src\TestePratico.API\bin\Debug\netcoreapp2.2\TestePratico.API.pdb
+C:\Users\cidic\Documents\Cursos\WebApi RestFull\src\TestePratico.API\obj\Debug\netcoreapp2.2\TestePratico.API.csproj.CoreCompileInputs.cache
+C:\Users\cidic\Documents\Cursos\WebApi RestFull\src\TestePratico.API\obj\Debug\netcoreapp2.2\TestePratico.API.RazorAssemblyInfo.cache
+C:\Users\cidic\Documents\Cursos\WebApi RestFull\src\TestePratico.API\obj\Debug\netcoreapp2.2\TestePratico.API.RazorAssemblyInfo.cs
+C:\Users\cidic\Documents\Cursos\WebApi RestFull\src\TestePratico.API\obj\Debug\netcoreapp2.2\TestePratico.API.AssemblyInfoInputs.cache
+C:\Users\cidic\Documents\Cursos\WebApi RestFull\src\TestePratico.API\obj\Debug\netcoreapp2.2\TestePratico.API.AssemblyInfo.cs
+C:\Users\cidic\Documents\Cursos\WebApi RestFull\src\TestePratico.API\obj\Debug\netcoreapp2.2\TestePratico.API.RazorTargetAssemblyInfo.cache
+C:\Users\cidic\Documents\Cursos\WebApi RestFull\src\TestePratico.API\obj\Debug\netcoreapp2.2\TestePratico.API.dll
+C:\Users\cidic\Documents\Cursos\WebApi RestFull\src\TestePratico.API\obj\Debug\netcoreapp2.2\TestePratico.API.pdb

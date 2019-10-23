@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using TestePratico.API.domain.Models;
 using TestePratico.API.domain.Repositories;
 using TestePratico.API.domain.Services;
@@ -20,6 +17,16 @@ namespace TestePratico.API.Services
         public async Task<PassangerToAirplane> ChangePassangerAsync(int id, int IdAirplane)
         {
             return await _passangerRepository.ChangePassangerAsync(id, IdAirplane);
+        }
+
+        public async Task<Passanger> FindPassangerAsync(int id)
+        {
+            return await _passangerRepository.FindPassangerAsync(id);
+        }
+
+        public async Task<PassangerToAirplane> FindPassangerToAirplanerAsync(int id)
+        {
+            return await _passangerRepository.FindPassangerToAirplanerAsync(id);
         }
 
         public async Task<Passanger> InsertPassangerAsync(Passanger request)

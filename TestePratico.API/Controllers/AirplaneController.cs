@@ -34,8 +34,6 @@ namespace TestePratico.API.Controllers
         {            
             await _airplaneService.InsertAirplaneAsync(request);
 
-
-            //    //return CreatedAtAction("GetTodoItem", new { id = todoItem.Id }, todoItem);
             return CreatedAtAction(nameof(FindAirplaneAsync), new { id = request.Id }, request);
         }
     }

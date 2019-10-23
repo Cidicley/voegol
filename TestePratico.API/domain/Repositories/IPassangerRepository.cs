@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using TestePratico.API.domain.Models;
 
 namespace TestePratico.API.domain.Repositories
@@ -12,5 +13,9 @@ namespace TestePratico.API.domain.Repositories
         Task<PassangerToAirplane> ChangePassangerAsync(int id, int IdAirplane);
 
         Task<PassangerToAirplane> ListAllPassangerByAirplaneAsync(int idAirplane);
+
+        Task<Passanger> FindPassangerAsync(int id);
+
+        Task<PassangerToAirplane> FindPassangerToAirplanerAsync(int id);
     }
 }

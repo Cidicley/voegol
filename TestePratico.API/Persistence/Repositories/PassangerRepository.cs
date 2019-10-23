@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using TestePratico.API.domain.Models;
 using TestePratico.API.domain.Repositories;
@@ -33,6 +34,16 @@ namespace TestePratico.API.Persistence.Repositories
 
         }
 
+        public async Task<Passanger> FindPassangerAsync(int id)
+        {
+            return await _context.Passangers.FindAsync(id);
+        }
+
+        public async Task<PassangerToAirplane> FindPassangerToAirplanerAsync(int id)
+        {
+            return await _context.PassangersToAirplane.FindAsync(id);
+        }
+
         public async Task<Passanger> InsertPassangerAsync(Passanger request)
         {
             if (request == null)
@@ -63,7 +74,9 @@ namespace TestePratico.API.Persistence.Repositories
 
         public async Task<PassangerToAirplane> ListAllPassangerByAirplaneAsync(int idAirplane)
         {
-            return await _context.PassangersToAirplane.FindAsync(idAirplane);
+            return await _context.PassangersToAirplane.FindAsync(idAirplane); 
         }
+
+
     }
 }

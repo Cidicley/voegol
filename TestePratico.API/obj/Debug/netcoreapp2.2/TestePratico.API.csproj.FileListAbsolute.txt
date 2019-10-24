@@ -11,3 +11,4 @@ C:\Users\cidic\Documents\Cursos\WebApi RestFull\src\TestePratico.API\obj\Debug\n
 C:\Users\cidic\Documents\Cursos\WebApi RestFull\src\TestePratico.API\obj\Debug\netcoreapp2.2\TestePratico.API.RazorTargetAssemblyInfo.cache
 C:\Users\cidic\Documents\Cursos\WebApi RestFull\src\TestePratico.API\obj\Debug\netcoreapp2.2\TestePratico.API.dll
 C:\Users\cidic\Documents\Cursos\WebApi RestFull\src\TestePratico.API\obj\Debug\netcoreapp2.2\TestePratico.API.pdb
+C:\Users\cidic\Documents\Cursos\WebApi RestFull\src\TestePratico.API\obj\Debug\netcoreapp2.2\TestePratico.API.csprojAssemblyReference.cache

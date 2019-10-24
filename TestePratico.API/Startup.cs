@@ -35,6 +35,9 @@ namespace TestePratico.API
 
             services.AddScoped<IAirplaneRepository, AirplaneRepository>();
             services.AddScoped<IAirplaneService, AirplaneService>();
+
+            services.AddScoped<IPassangerRepository, PassangerRepository>();
+            services.AddScoped<IPassangerService, PassangerService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -42,7 +42,21 @@ namespace TestePratico.API.Persistence.Contexts
             builder.Entity<Passanger>().ToTable("Passangers");
             builder.Entity<Passanger>().HasKey(p => p.Id);
             builder.Entity<Passanger>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
-            builder.Entity<Passanger>().Property(p => p.Nome).IsRequired().HasMaxLength(50); 
+            builder.Entity<Passanger>().Property(p => p.Nome).IsRequired().HasMaxLength(50);            
+
+            builder.Entity<Passanger>().HasData(
+                new Passanger { Id = 100, Nome = "João da Silva"},
+                new Passanger { Id = 110, Nome = "Maria da Glória"},
+                new Passanger { Id = 120, Nome = "Paulo José da Silva"},
+                new Passanger { Id = 130, Nome = "Ana Maria Fernandes"},
+                new Passanger { Id = 140, Nome = "Carlos João das couves"},
+                new Passanger { Id = 150, Nome = "Marina da Glória"},
+
+                new Passanger { Id = 200, Nome = "Joaqui da Silva"},
+                new Passanger { Id = 210, Nome = "Betania Maria Luiza da Glória"},
+                new Passanger { Id = 220, Nome = "Manoel da Silva"},
+                new Passanger { Id = 230, Nome = "Fernanda da Glória"}
+                );
             #endregion
 
             #region Airplane
@@ -59,16 +73,30 @@ namespace TestePratico.API.Persistence.Contexts
                 ); 
             #endregion
 
-            #region PassangersToAirplane
-            builder.Entity<PassangerToAirplane>().ToTable("PassangersToAirplane");
-            builder.Entity<PassangerToAirplane>().HasKey(p => p.Id);
-            builder.Entity<PassangerToAirplane>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
-            builder.Entity<PassangerToAirplane>().Property(p => p.IdAirplane).IsRequired();
-            builder.Entity<PassangerToAirplane>().Property(p => p.IdAirplane).IsRequired();
-            builder.Entity<PassangerToAirplane>().HasMany(p => p.Airplanes).WithOne(p => p.PassangerToAirplane).HasForeignKey(p => p.IdPassangerToAirplane);
-            builder.Entity<PassangerToAirplane>().HasMany(p => p.Passangers).WithOne(p => p.PassangerToAirplane).HasForeignKey(p => p.IdPassangerToAirplane);
+            //#region PassangersToAirplane
+            //builder.Entity<PassangerToAirplane>().ToTable("PassangersToAirplane");
+            //builder.Entity<PassangerToAirplane>().HasKey(p => p.Id);
+            //builder.Entity<PassangerToAirplane>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
+            //builder.Entity<PassangerToAirplane>().Property(p => p.IdAirplane).IsRequired();
+            //builder.Entity<PassangerToAirplane>().Property(p => p.IdAirplane).IsRequired();
+            //builder.Entity<PassangerToAirplane>().HasMany(p => p.Airplanes).WithOne(p => p.PassangerToAirplane).HasForeignKey(p => p.IdPassangerToAirplane);
+            //builder.Entity<PassangerToAirplane>().HasMany(p => p.Passangers).WithOne(p => p.PassangerToAirplane).HasForeignKey(p => p.IdPassangerToAirplane);
 
-            #endregion
+            //builder.Entity<PassangerToAirplane>().HasData(
+            //        new PassangerToAirplane { Id = 100, IdAirplane = 100, IdPassanger = 100},
+            //        new PassangerToAirplane { Id = 200, IdAirplane = 100, IdPassanger = 110 },
+            //        new PassangerToAirplane { Id = 300, IdAirplane = 100, IdPassanger = 120 },
+            //        new PassangerToAirplane { Id = 400, IdAirplane = 100, IdPassanger = 130 },
+            //        new PassangerToAirplane { Id = 500, IdAirplane = 100, IdPassanger = 140 },
+            //        new PassangerToAirplane { Id = 600, IdAirplane = 100, IdPassanger = 150 },
+
+            //        new PassangerToAirplane { Id = 700, IdAirplane = 200, IdPassanger = 200 },
+            //        new PassangerToAirplane { Id = 800, IdAirplane = 200, IdPassanger = 210 },
+            //        new PassangerToAirplane { Id = 900, IdAirplane = 300, IdPassanger = 220 },
+            //        new PassangerToAirplane { Id = 1000, IdAirplane = 400, IdPassanger = 230 }
+            //        );
+
+            //#endregion
         }
     }
 }

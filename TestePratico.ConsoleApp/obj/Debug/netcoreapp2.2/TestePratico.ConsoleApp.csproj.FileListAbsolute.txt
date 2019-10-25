@@ -1,0 +1,16 @@
+C:\Users\cidic\Documents\Cursos\WebApi RestFull\src\TestePratico.ConsoleApp\bin\Debug\netcoreapp2.2\TestePratico.ConsoleApp.deps.json
+C:\Users\cidic\Documents\Cursos\WebApi RestFull\src\TestePratico.ConsoleApp\bin\Debug\netcoreapp2.2\TestePratico.ConsoleApp.runtimeconfig.json
+C:\Users\cidic\Documents\Cursos\WebApi RestFull\src\TestePratico.ConsoleApp\bin\Debug\netcoreapp2.2\TestePratico.ConsoleApp.runtimeconfig.dev.json
+C:\Users\cidic\Documents\Cursos\WebApi RestFull\src\TestePratico.ConsoleApp\bin\Debug\netcoreapp2.2\TestePratico.ConsoleApp.dll
+C:\Users\cidic\Documents\Cursos\WebApi RestFull\src\TestePratico.ConsoleApp\bin\Debug\netcoreapp2.2\TestePratico.ConsoleApp.pdb
+C:\Users\cidic\Documents\Cursos\WebApi RestFull\src\TestePratico.ConsoleApp\bin\Debug\netcoreapp2.2\TestePratico.API.dll
+C:\Users\cidic\Documents\Cursos\WebApi RestFull\src\TestePratico.ConsoleApp\bin\Debug\netcoreapp2.2\TestePratico.API.pdb
+C:\Users\cidic\Documents\Cursos\WebApi RestFull\src\TestePratico.ConsoleApp\obj\Debug\netcoreapp2.2\TestePratico.ConsoleApp.csprojAssemblyReference.cache
+C:\Users\cidic\Documents\Cursos\WebApi RestFull\src\TestePratico.ConsoleApp\obj\Debug\netcoreapp2.2\TestePratico.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\cidic\Documents\Cursos\WebApi RestFull\src\TestePratico.ConsoleApp\obj\Debug\netcoreapp2.2\TestePratico.ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\cidic\Documents\Cursos\WebApi RestFull\src\TestePratico.ConsoleApp\obj\Debug\netcoreapp2.2\TestePratico.ConsoleApp.AssemblyInfo.cs
+C:\Users\cidic\Documents\Cursos\WebApi RestFull\src\TestePratico.ConsoleApp\obj\Debug\netcoreapp2.2\TestePratico.ConsoleApp.csproj.CopyComplete
+C:\Users\cidic\Documents\Cursos\WebApi RestFull\src\TestePratico.ConsoleApp\obj\Debug\netcoreapp2.2\TestePratico.ConsoleApp.dll
+C:\Users\cidic\Documents\Cursos\WebApi RestFull\src\TestePratico.ConsoleApp\obj\Debug\netcoreapp2.2\TestePratico.ConsoleApp.pdb
+C:\Users\cidic\Documents\Cursos\WebApi RestFull\src\TestePratico.ConsoleApp\bin\Debug\netcoreapp2.2\Newtonsoft.Json.dll
+C:\Users\cidic\Documents\Cursos\WebApi RestFull\src\TestePratico.ConsoleApp\bin\Debug\netcoreapp2.2\Newtonsoft.Json.xml
